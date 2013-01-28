@@ -10,7 +10,7 @@ urlalias = (req, res, next) ->
   client.hget hash, url_parts.pathname, (err, reply) ->
     if reply
       req.urlRewritten = req.url
-      req.url = reply + url_parts.search
+      req.url = reply + (url_parts.search || "")
     next()
     
 urlalias.configure = (domain) ->
