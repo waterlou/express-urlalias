@@ -1,0 +1,10 @@
+{
+  "name": "express-urlalias-test",
+  "version": "0.0.1",
+  "author": "Water Lou <water@waterworld.com.hk>",
+  "description": "Test server for express-urlalias",
+  "main": "app",
+  "dependencies": {
+     "express": "3.x"
+  }
+}

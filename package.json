@@ -1,0 +1,28 @@
+{
+  "name": "express-urlalias",
+  "description": "URL rewriting middleware for Express.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/waterlou/express-urlalias",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/waterlou/express-urlalias.git"
+  },
+  "keywords": [
+    "express",
+    "url",
+    "alias"
+  ],
+  "author": {
+    "name": "Water Lou",
+    "email": "water@waterworld.com.hk"
+  },
+  "dependencies": {
+    "redis": ">=0.8.0",
+    "hiredis": ">=0.1.14"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "./lib/index",
+  "readmeFilename": "README.md"
+}
