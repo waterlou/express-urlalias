@@ -1,6 +1,6 @@
 url = require 'url'
 redis = require 'redis'
-client = redis.createClient()
+client = redis.createClient({no_ready_check: true})
 
 hash = "defaultdomain"
 
